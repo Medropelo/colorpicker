@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="color-selector">
+      <h1>Color Picker - Trabalho Prático</h1>
+      <h2>Módulo 01</h2>
+
+      <div class="slider">
+        <label>Red</label>
+        <div class="color-info">
+          <input type="range" class="red" value="0" max="255" />
+          <input type="text" class="red-value" value="0" readonly />
+        </div>
+        <label>Green</label>
+        <div class="color-info">
+          <input type="range" class="green" value="0" max="255" />
+          <input type="text" class="green-value" value="0" readonly />
+        </div>
+        <label>Blue</label>
+        <div class="color-info">
+          <input type="range" class="blue" value="0" max="255" />
+          <input type="text" class="blue-value" value="0" readonly />
+        </div>
+        <div class="rgb"></div>
+        <div class="color"></div>
+      </div>
+      <div class="personal-data">© 2020 Pedro de Sá Melo</div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

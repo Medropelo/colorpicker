@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #c3cbd9;
+  font-family: monospace;
+  font-weight: normal;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 22px;
+  margin: auto;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.color-selector {
+  width: 400px;
+  margin: auto;
+  background: #ffffff;
+  font-weight: normal;
+}
+.color {
+  height: 400px;
+}
